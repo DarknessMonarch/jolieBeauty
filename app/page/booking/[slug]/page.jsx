@@ -183,7 +183,7 @@ export default function BookingPage({ params }) {
                   width={400}
                   alt={booking.category}
                   priority={true}
-                  className={styles.c}
+                  className={styles.bookingImg}
                 />
               </div>
               <div className={styles.bookingBottom}>
