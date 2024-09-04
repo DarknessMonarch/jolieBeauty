@@ -15,7 +15,7 @@ import {
 export default function About() {
   const scheduleData = [
     { day: "Monday", time: "9:00 AM - 12:00 PM" },
-    { day: "Tuesday", time: "9:00 AM - 2:00 PM" },
+    { day: "Tuesday", time: "available" },
     { day: "Wednesday", time: "Not available" },
     { day: "Thursday", time: "9:00 AM - 12:00 PM" },
     { day: "Friday", time: "Not available" },
