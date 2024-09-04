@@ -1,0 +1,297 @@
+/* Global styles */
+@media screen {
+  .aboutMain {
+    gap: 40px;
+    z-index: 100;
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+    flex-direction: column;
+  }
+
+  .aboutWrap {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .aboutContent {
+    gap: 20px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    color: var(--background-color);
+    background: rgba(33, 33, 33, 0.5);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+  }
+
+  .aboutContent {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .aboutContent h2,
+  .scheduleTable h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: var(--tertiary-color);
+  }
+
+  .aboutContent h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+
+  .aboutContent p {
+    font-size: 0.9rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .aboutImageContainer {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+    border-radius: 12px;
+    
+  }
+
+  .aboutLogoContainer {
+    top: 220px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    flex-direction: column;
+    background: rgba(33, 33, 33, 0.5);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+  }
+
+
+  .aboutLogoContainer h1 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--background-color);
+  }
+
+  .aboutImage {
+    border-radius: 12px;
+  }
+
+  .scheduleTable {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+    align-items: center;
+    flex-direction: column;
+    color: var(--background-color);
+    background: rgba(33, 33, 33, 0.5);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+  }
+
+  .scheduleTable table {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    table-layout: fixed;
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border: 1px solid var(--tertiary-color);
+  }
+
+  .scheduleTable td {
+    border: 1px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .columnData {
+    gap: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .columnData span {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+  }
+
+  .aboutDown {
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    border-radius: 12px;
+    flex-direction: column;
+    color: var(--background-color);
+    background: rgba(33, 33, 33, 0.5);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+  }
+
+  .aboutDown h1 {
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--tertiary-color);
+  }
+
+  .cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    flex-direction: column;
+  }
+
+  .cardTop {
+    padding: 10px;
+    position: relative;
+    transform: rotate(45);
+    border-radius: 12px 12px 0 0;
+    border: 1px solid var(--tertiary-color);
+  }
+
+  .cardIcons {
+    width: 40px;
+    height: 40px;
+    color: var(--tertiary-color);
+  }
+
+  .cardBottom {
+    gap: 10px;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  .cardTop h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--tertiary-color);
+  }
+
+  .cardBottom ul {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: start;
+    list-style: none;
+  }
+
+  .importantDetails {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .importantContainer {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+  }
+
+  .content {
+    gap: 10px;
+    flex: 50%;
+    padding: 10px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    border: 1px solid var(--tertiary-color);
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .content p {
+    gap: 10px;
+    display: flex;
+    font-size: 0.9rem;
+    flex-direction: column;
+  }
+
+  .content p span {
+    padding: 4px;
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+  }
+}
+
+/* Media queries */
+
+/* Larger devices (above 48em) */
+@media only screen and (min-width: 48em) {
+  .aboutMain {
+    padding: 100px;
+  }
+
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .aboutWrap {
+    flex-direction: row;
+  }
+
+  .aboutContent {
+    width: 400px;
+  }
+
+  .aboutImageContainer {
+    width: 400px;
+    height: auto;
+    padding: 0;
+  }
+
+  .scheduleTable {
+    width: 400px;
+  }
+}
+
+/* iPad Pro screens and laptop (between 49em and 64em) */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* Large screens: Desktop and 4k screens (between 64.063em and 90em) */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above (above 91em) */
+@media only screen and (min-width: 91em) {
+}

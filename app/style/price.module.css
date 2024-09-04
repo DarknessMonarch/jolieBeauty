@@ -1,0 +1,95 @@
+@media screen {
+  .priceMain {
+    gap: 30px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .mainContainer {
+    gap: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainContainer h1 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--background-color);
+  }
+
+  .priceContainer {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .priceList {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .priceList h2 {
+    font-size: .8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--background-color);
+  } 
+
+  .line {
+    width:150px;
+    height: 2px;
+    border: none;
+    outline: none;
+    background-color: var(--background-color);
+  }
+
+  
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .priceMain {
+    height: 60%;
+    flex-direction: row;
+  }
+
+
+  .mainContainer {
+    flex-direction: row;
+  }
+
+  .mainContainer h1 {
+    font-size: 2rem;
+  }
+
+  .priceList h2 {
+    font-size: 1rem;
+  }
+
+  .line {
+    width:300px;
+  }
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

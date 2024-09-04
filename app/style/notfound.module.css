@@ -1,0 +1,57 @@
+@media screen {
+    .notFound {
+        top: 0;
+        left: 0;
+        right: 0;
+        gap: 10px;
+        bottom: 0;
+        height: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--primary-color);
+        background-image: url("../../public/icons/background.svg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        backdrop-filter: blur(10px);
+    }
+
+    .notFoundBtn {
+        border: 1px solid var(--tertiary-color);
+        color: var(--tertiary-color);
+        font-weight: 300;
+        cursor: pointer;
+        padding: 10px;
+        outline: none;
+    }   
+
+    .notFoundBtn:hover {
+        background-color: var(--tertiary-color);
+        color: var(--primary-color);
+    }
+
+    
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .notFound {
+        flex-direction: row;
+    }
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

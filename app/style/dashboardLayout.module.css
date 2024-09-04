@@ -1,0 +1,68 @@
+@media screen {
+  .dashLayout {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    gap: 10px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: var(--tertiary-color);
+  }
+
+  .dashContentLayout {
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 12px;
+    background: rgba(33, 33, 33, 0.50);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-bottom: 1px solid var(--tertiary-color);
+  }
+
+  .footerContainer {
+    right: 20px;
+    width: 50px;
+    z-index: 999;
+    height: 50px;
+    bottom: 20px;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    align-items: center;
+    border-radius: 360%;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(33, 33, 33, 0.5);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid var(--tertiary-color);
+  }
+
+  .sideHomeIcon {
+    color: var(--tertiary-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}
