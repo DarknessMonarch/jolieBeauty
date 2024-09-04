@@ -6,6 +6,12 @@
     flex-direction: column;
   }
 
+  .bookingMain p {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--tertiary-color);
+  }
+
   .bookingMain h1 {
     font-size: 1rem;
     font-weight: 500;

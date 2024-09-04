@@ -130,7 +130,7 @@ export default function BookingPage({ params }) {
           const time = parts.length > 1 ? parts.slice(1).join(" ") : "";
           return { title, time };
         }),
-        dateBooked: formattedDate, // Use formatted date here
+        dateBooked: formattedDate, 
         email: user,
       };
   
