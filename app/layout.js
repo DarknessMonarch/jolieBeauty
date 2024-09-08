@@ -15,7 +15,7 @@ export const metadata = {
   title: 'joelies beauty haven',
   applicationName: 'joeliesbeautyhaven',
   author: 'Torcah',
-  images: "https://github.com/DarknessMonarch/jolieBeauty/blob/master/public/assets/banner.png",
+  images: "https://raw.githubusercontent.com/DarknessMonarch/jolieBeauty/master/public/assets/banner.png",
   description: 'We offer beauty services, hair services and nails services',
   keywords: ['hair', 'beauty', 'salon', 'joeliesbeautyhaven', 'hair product', 'beauty product', 'salon product'],
 
@@ -24,7 +24,7 @@ export const metadata = {
     description: 'We offer beauty services, hair services and nails services',
     url: 'https://joeliesbeautyhaven.com/',
     siteName: 'joeliesbeautyhaven',
-    images: "https://github.com/DarknessMonarch/jolieBeauty/blob/master/public/assets/banner.png",
+    images: "https://raw.githubusercontent.com/DarknessMonarch/jolieBeauty/master/public/assets/banner.png",
 
   },
 
