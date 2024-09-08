@@ -6,7 +6,6 @@ import { useState } from "react";
 import Navbar from "@/app/components/navbar";
 import Loading from "@/app/components/Loading";
 import NotFoundImage from "@/public/icons/404.svg";
-import BackButton from "@/app/components/backButton";
 import styles from "@/app/style/notfound.module.css";
 
 export default function NotFound() {

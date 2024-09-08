@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "@/public/icons/logo.svg";
+import Logo from "@/public/assets/logo.png";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import styles from "@/app/style/navbar.module.css";
@@ -59,8 +59,7 @@ export default function Navbar() {
           <Image
             src={Logo}
             alt="logo"
-            width={50}
-            height={50}
+            height={40}
             priority={true}
             onClick={() => home()}
             className={styles.logo}

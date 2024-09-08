@@ -66,7 +66,8 @@ export default function Add() {
               layout="fill"
               quality={100}
               objectFit="cover"
-              priority
+              priority={true}
+
             />
           ) : (
             <CameraIcon className={styles.CameraIcon} width={30} height={30} />

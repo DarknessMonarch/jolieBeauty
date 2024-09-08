@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "@/public/icons/logo.svg";
+import Logo from "@/public/assets/logo.png";
 import { usePathname } from "next/navigation";
 import styles from "@/app/style/sidenav.module.css";
 import { UserIcon, FolderIcon } from "@heroicons/react/24/solid";

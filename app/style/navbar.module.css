@@ -22,6 +22,11 @@
     color: var(--tertiary-color);
   }
 
+  .logo{
+    width: 70px;
+    height: auto;
+
+  }
 
   .btnContainer {
     gap: 10px;
@@ -89,6 +94,9 @@
 /* using it as global style for larger devices  */
 @media only screen and (min-width: 48em) {
 
+  .logo{
+    width: 130px;
+  }
 }
 
 /* ipad pro screens & laptop */

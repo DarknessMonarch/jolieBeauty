@@ -11,20 +11,20 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://jolie-beauty.com/'),
-  title: 'jolie-beauty',
-  applicationName: 'jolie-beauty',
+  metadataBase: new URL('https://joeliesbeautyhaven.com/'),
+  title: 'joelies beauty haven',
+  applicationName: 'joeliesbeautyhaven',
   author: 'Torcah',
-  images: "https://raw.githubusercontent.com/DarknessMonarch/jolie-beauty/master/public/assets/banner.png",
+  images: "https://raw.githubusercontent.com/DarknessMonarch/joeliesbeautyhaven/master/public/assets/banner.png",
   description: 'We offer beauty services, hair services and nails services',
-  keywords: ['hair', 'beauty', 'salon', 'jolie-beauty', 'hair product', 'beauty product', 'salon product'],
+  keywords: ['hair', 'beauty', 'salon', 'joeliesbeautyhaven', 'hair product', 'beauty product', 'salon product'],
 
   openGraph: {
-    title: 'jolie-beauty',
+    title: 'joeliesbeautyhaven',
     description: 'We offer beauty services, hair services and nails services',
-    url: 'https://jolie-beauty.com/',
-    siteName: 'jolie-beauty',
-    images: "https://raw.githubusercontent.com/DarknessMonarch/jolie-beauty/master/public/assets/banner.png",
+    url: 'https://joeliesbeautyhaven.com/',
+    siteName: 'joeliesbeautyhaven',
+    images: "https://raw.githubusercontent.com/DarknessMonarch/joeliesbeautyhaven/master/public/assets/banner.png",
 
   },
 

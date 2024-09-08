@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "@/public/icons/logo.svg";
+import Logo from "@/public/assets/logo.png";
 import Service from "@/public/assets/service.png";
 import styles from "@/app/style/about.module.css";
 import {
@@ -88,15 +88,16 @@ export default function About() {
           objectFit="contain"
           alt="Service"
           className={styles.aboutImage}
-          priority="true"
+          priority={true}
+
         />
         <div className={styles.aboutLogoContainer}>
         <Image
           src={Logo}
-          height={60}
-          width={60}
+          height={100}
           alt="logo"
-          priority="true"
+          priority={true}
+
           className={styles.aboutLogo}
         />
         <h1>Thank you for choosing Jolies House Beauty</h1>
