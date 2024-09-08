@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { toast } from "react-toastify";
-import Logo from "@/public/icons/logo.svg";
+import Logo from "@/public/assets/logo.png";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Loader from "@/app/components/Loading";
@@ -83,8 +83,8 @@ export default function Reset({ params }) {
             <Image
               src={Logo}
               alt="logo"
-              width={60}
-              height={60}
+              height={100}
+              priority={true}
               className={styles.logo}
             />
           </div>

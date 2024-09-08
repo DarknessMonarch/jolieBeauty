@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { toast } from "react-toastify";
-import Logo from "@/public/icons/logo.svg";
+import Logo from "@/public/assets/logo.png";
 import { useRouter } from "next/navigation";
 import Loader from "@/app/components/Loading";
 import styles from "@/app/style/auth.module.css";
@@ -97,8 +97,8 @@ export default function Login() {
             <Image
               src={Logo}
               alt="logo"
-              width={60}
-              height={60}
+              height={100}
+              priority={true}
               className={styles.logo}
             />
           </div>
